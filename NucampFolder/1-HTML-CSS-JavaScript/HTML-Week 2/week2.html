@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <style>
+/* 
+       html{
+        font-size:12px;
+       }
+
+       p::first-line{
+          margin:10px 20px 5px;
+          color:blue; 
+          font-size:2rem;
+        } */
+
+        /* p { 
+            color: red;
+        }
+        p { 
+            color: blue;
+        }
+        body {
+            color: yellow;
+        } */
+/* 
+        p {
+            color: red;
+        }
+        body > .heading {
+            color: blue;
+        } */
+
+        form div{
+            color:blue;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div><p>I love movies!</p></div>
+
+    <p class="first-line">“Live your life as an Exclamation rather than an Explanation” -Issac Newton</p> -->
+    <!-- <p>Welcome!</p> -->
+
+    <p style="color: green;" class="heading">Welcome!</p>
+
+<input type="radio" name="weight" value="under 100"/> Under 100 lbs
+<input type="radio" name="weight" value="100-120"/> 100-119 lbs
+<input type="radio" name="weight" value="121-140"/> 120-139 lbs
+<input type="radio" name="weight" value="141-160"/> 140-159 lbs
+<input type="radio" name="weight" value="161-180"/> 160-179 lbs
+<input type="radio" name="weight" value="181-200"/> 180-199 lbs
+<input type="radio" name="weight" value="over 200"/> Over 200 lbs
+
+<form method="get" action="upload.php" enctype="text/plain">
+    <div>
+        <label for="studentId">Student ID: </label> 
+        <input type="text" name="studentId" id="studentId"
+           placeholder="Enter your student ID here" />
+    </div>
+    <div>
+        <label for="fileToUpload">Select a file to upload: </label> 
+        <input type="file" id="fileToUpload" />
+    </div>
+    <div>
+        <input type="submit" value="Upload" />
+    </div>
+
+    <form>
+        <fieldset>
+            <div>How would you select this div?</div>
+        </fieldset>
+    </form>
+    <div>But not this div?</div>
+</form>
+
+<label for="myIQ">Your IQ</label>: <input type="number" id="iq" name="myIQ" placeholder="Enter your IQ here" />
+</body>
+</html>

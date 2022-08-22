@@ -1,0 +1,31 @@
+body {
+    font-family: 'Sans Source Pro', sans-serif; 
+  }
+  
+  table {
+      margin: auto;
+  }
+  
+  th {
+      background: lightblue;
+  }
+  
+  td {
+      background: khaki;
+      text-align: center;
+  }
+
+  td,th{
+    border:solid 1px;
+    padding:6px;
+    width:100px;
+  }
+
+  th[colspan]:not([colspan="3"]) {
+    background: violet;
+   }
+
+   thead th{
+    background:palegreen;
+   }
+
